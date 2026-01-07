@@ -584,8 +584,12 @@ section h3.section-subheading {
   margin-bottom: 50px;
 }
 .team-member img {
+  width: 200px; /* Set consistent width */
+  height: 200px; /* Make height equal to width for circular alignment */
+  object-fit: cover; /* Ensures the image fills the space evenly */
   margin: 0 auto;
   border: 7px solid white;
+  border-radius: 50%; /* Ensures circular shape */
 }
 .team-member h4 {
   margin-top: 25px;
